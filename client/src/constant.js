@@ -1,3 +1,5 @@
+import { MdSchool } from "react-icons/md";
+
 export const mobile = 123456789;
 
 export const ProfileHeading = [
@@ -6,7 +8,7 @@ export const ProfileHeading = [
   "React js Developer!",
 ];
 
-// ====About Me
+// ====About Me===
 export const aboutImage = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU`;
 
 export const Aboutme = `
@@ -20,3 +22,23 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
                 harum dolorem numquam, quis nesciunt atque tempore quae?
                 Quibusdam consequatur quidem pariatur hic, ipsam eum beatae
                 labore tempora quis fugit? Vitae, aperiam velit.`;
+
+// ====Education=Data==
+
+export const EducationConstant = [
+  {
+    date: "2020 - 2022",
+    icon: <MdSchool />,
+    courseName: "MCA",
+    orgName: "IIT Mumbai, IN",
+  },
+];
+
+for (let i = 0; i < 2; i++) {
+  EducationConstant.push({
+    date: "2020 - 2022",
+    icon: <MdSchool />,
+    courseName: "MCA",
+    orgName: "IIT Mumbai, IN",
+  });
+}
