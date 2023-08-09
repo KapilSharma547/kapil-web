@@ -6,6 +6,7 @@ import Layout from "./Components/Layout/Layout.js";
 import About from "./pages/About/About.js";
 import { useTheme } from "./context/ThemeContext";
 import Education from "./pages/Educations/Education.js";
+import Techstack from "./pages/Techstack/Techstack.js";
 
 const App = () => {
   const [theme] = useTheme();
@@ -18,6 +19,7 @@ const App = () => {
         <div className="container">
           <About />
           <Education />
+          <Techstack />
         </div>
       </div>
     </>
