@@ -5,6 +5,7 @@ import MobileNav from "./Components/MobileNav/MobileNav";
 import Layout from "./Components/Layout/Layout.js";
 import About from "./pages/About/About.js";
 import { useTheme } from "./context/ThemeContext";
+import Education from "./pages/Educations/Education.js";
 
 const App = () => {
   const [theme] = useTheme();
@@ -16,6 +17,7 @@ const App = () => {
         <Layout />
         <div className="container">
           <About />
+          <Education />
         </div>
       </div>
     </>
