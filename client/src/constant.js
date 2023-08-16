@@ -42,3 +42,7 @@ for (let i = 0; i < 2; i++) {
     orgName: "IIT Mumbai, IN",
   });
 }
+
+// TeachStack====
+export const TechstackHeading = `👉 including programming Languages, frameworks, databses, front-end
+and back-end tools, and APIs`;
