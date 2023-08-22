@@ -7,6 +7,8 @@ import About from "./pages/About/About.js";
 import { useTheme } from "./context/ThemeContext";
 import Education from "./pages/Educations/Education.js";
 import Techstack from "./pages/Techstack/Techstack.js";
+import Projects from "./pages/Projects/Projects.js";
+import WorkExp from "./pages/workExp/WorkExp.js";
 
 const App = () => {
   const [theme] = useTheme();
@@ -20,6 +22,8 @@ const App = () => {
           <About />
           <Education />
           <Techstack />
+          <Projects />
+          <WorkExp />
         </div>
       </div>
     </>
