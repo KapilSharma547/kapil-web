@@ -3,6 +3,7 @@ import "./Techstack.css";
 import RubberBand from "react-reveal/RubberBand";
 import Fade from "react-reveal/Fade";
 import { TechstackList } from "../../utils/TechstackList";
+import { TechstackHeading } from "../../constant";
 const Techstack = () => {
   return (
     <>
@@ -12,10 +13,7 @@ const Techstack = () => {
             Technologies Stack
           </h2>
           <hr />
-          <p className="pb-3 text-center">
-            👉 including programming Languages, frameworks, databses, front-end
-            and back-end tools, and APIs
-          </p>
+          <p className="pb-3 text-center">{TechstackHeading}</p>
         </RubberBand>
         <div className="row">
           {TechstackList.map((tech) => (
