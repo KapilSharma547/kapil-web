@@ -57,3 +57,6 @@ voluptate qui et animi doloribus nulla eius molestiae unde tempore ad
 
 export const kapilgithub = `https://github.com/"
 `;
+
+// ===contact
+export const kapillinkdin = ``;
