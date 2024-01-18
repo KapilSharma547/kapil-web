@@ -2,6 +2,7 @@
   --bgcolor: #000000;
   --fontcolor: #ffffff;
   --lightgray: #cccccc;
+  --fontsize: 17px;
 }
 body {
   margin: 0;

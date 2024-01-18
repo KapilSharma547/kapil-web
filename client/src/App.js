@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { ThemeProvider, useTheme } from "./contaxt/ThemeContex";
 import style from "./app.module.css";
+import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   const { theme } = useTheme();
   return (
@@ -15,6 +16,7 @@ const App = () => {
         color: theme.fontColor,
       }}
     >
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

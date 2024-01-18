@@ -1,0 +1,24 @@
+.conatiner {
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bgcolor);
+  color: var(--fontcolor);
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.links {
+  margin-right: 10px;
+}
+.link {
+  padding: 10px;
+  text-decoration: none;
+  color: var(--fontcolor);
+  font-size: var(--fontsize);
+}
