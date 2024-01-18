@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import { ThemeProvider, useTheme } from "./contaxt/ThemeContex";
 import style from "./app.module.css";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   const { theme } = useTheme();
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

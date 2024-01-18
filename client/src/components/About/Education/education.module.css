@@ -1,0 +1,21 @@
+.title {
+  color: #0b36a8;
+  font-weight: 600;
+  font-size: 18px;
+}
+.heading {
+  color: var(--bgcolor);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.description{
+    margin-top: -12px;
+    font-size: 18px;
+}
+.container h6 {
+  color: #24262a;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Poppins";
+}
