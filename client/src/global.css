@@ -1,0 +1,15 @@
+:root {
+  --bgcolor: #000000;
+  --fontcolor: #ffffff;
+  --lightgray: #cccccc;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* body {
+  background-color: var(--bgcolor);
+  color: var(--fontcolor);
+} */
