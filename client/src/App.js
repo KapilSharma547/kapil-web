@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import { ThemeProvider, useTheme } from "./contaxt/ThemeContex";
 import style from "./app.module.css";
 const App = () => {
+  console.log('"object" :>> ', "object");
   const { theme } = useTheme();
   return (
     <div
