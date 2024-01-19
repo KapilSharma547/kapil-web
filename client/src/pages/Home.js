@@ -4,6 +4,7 @@ import style from "./Home.module.css";
 import Header from "../Assests/header-background.png";
 import { Link } from "react-router-dom";
 import About from "../components/About/About";
+import Service from "../components/Service/Service";
 const Home = () => {
   // const { theme, toggleTheme } = useTheme();
   // <button onClick={() => toggleTheme()}>handle</button>
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
         {/* About Div */}
         <About />
+        <Service />
       </div>
     </>
   );
