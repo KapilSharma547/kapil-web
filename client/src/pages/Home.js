@@ -18,7 +18,7 @@ const Home = () => {
             <div className={style.connectdiv}>
               <button className={style.button}>Discover</button>
               <button className={style.link}>
-                <Link>Contact</Link>
+                <Link to="/contact">Contact</Link>
               </button>
             </div>
           </div>
