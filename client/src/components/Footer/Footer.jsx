@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
         <a
           href={ExamplePdf}
-          download="Example-PDF-document"
+          download="Kapil_Resume"
           target="_blank"
           rel="noopener noreferrer"
         >

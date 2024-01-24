@@ -7,6 +7,9 @@ import { ThemeProvider, useTheme } from "./contaxt/ThemeContex";
 import style from "./app.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const App = () => {
   const { theme } = useTheme();
   return (
@@ -18,6 +21,7 @@ const App = () => {
       }}
     >
       <Navbar />
+      <ToastContainer />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

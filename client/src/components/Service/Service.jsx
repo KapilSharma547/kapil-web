@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./service.module.css";
 import SeviceCard from "./SeviceCard";
-import { Serviceitem } from "../../constanat";
+import { Serviceitem } from "../../utils/constanat";
 const Service = () => {
   return (
     <div className={style.container}>
