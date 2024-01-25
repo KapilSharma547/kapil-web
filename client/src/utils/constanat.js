@@ -1,5 +1,17 @@
-import { dimond, laptop, program } from "./ImagesConstant";
+import {
+  bootstrap,
+  dimond,
+  html,
+  javascript,
+  laptop,
+  mongodb,
+  next,
+  node,
+  program,
+  react,
+} from "./ImagesConstant";
 
+// Service
 export const Serviceitem = [
   {
     title: "DESIGN",
@@ -16,4 +28,13 @@ export const Serviceitem = [
     desc: "i can setup your project to use basic SEO principles which will push your project to the first page on search engines and save you ads money",
     image: laptop,
   },
+];
+export const skillIconsarr = [
+  react,
+  node,
+  next,
+  mongodb,
+  javascript,
+  bootstrap,
+  html,
 ];

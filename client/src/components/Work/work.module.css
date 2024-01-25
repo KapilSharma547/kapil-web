@@ -1,0 +1,21 @@
+.container {
+  border: 1px solid red;
+  padding-top: 70px;
+}
+
+.container h1 {
+  text-align: center;
+  color: #24262a;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-family: "Poppins";
+}
+
+.container p {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  color: #4d5055;
+  font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}

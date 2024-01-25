@@ -1,0 +1,57 @@
+.parantdiv {
+  border: 1px solid #ffffff;
+  display: flex;
+  height: 500px;
+}
+
+.image_div {
+  flex: 1;
+}
+
+.image_div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contant_div {
+  flex: 1;
+  margin-top: 5rem;
+  border: 1px solid #ffffff;
+  padding-right: 4px;
+}
+
+.contant_div h1 {
+  padding-left: 5rem;
+  color: #24262a;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-family: "Poppins";
+}
+.contant_div p {
+  margin-top: -10px;
+  padding-left: 5rem;
+  font-size: 1.2rem;
+  line-height: 25px;
+  color: #4d5055;
+  font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+.contant_div h2 {
+  padding-left: 5rem;
+  color: #24262a;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  font-family: "Poppins";
+}
+
+.skilliconsdiv {
+  padding-left: 5rem;
+  display: flex;
+  gap: 10px;
+}
+.skilliconsdiv img {
+  width: 50px;
+  border-radius: 4px;
+}
