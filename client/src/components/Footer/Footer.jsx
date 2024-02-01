@@ -3,6 +3,7 @@ import style from "./footer.module.css";
 import { FaGithub, FaFileDownload } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import ExamplePdf from "../../Assests/Kapil's Resume.pdf";
+import { SiLeetcode } from "react-icons/si";
 const Footer = () => {
   return (
     <div className={style.container}>
@@ -28,6 +29,14 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <FaFileDownload className={style.social_images} />
+        </a>
+        <a
+          href={"https://leetcode.com/kapilsharmanfl97/"}
+          download="Kapil_Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiLeetcode className={style.social_images} />
         </a>
       </div>
       <p>Copyright © 2024 Kapil Sharma</p>

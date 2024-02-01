@@ -11,6 +11,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+console.log('name, value :>> ', name, value);
     setInputvalue((prev) => ({
       ...prev,
       [name]: value,
@@ -23,6 +24,7 @@ const Contact = () => {
       toast.error("Please fill out the form first.");
       return;
     }
+    console.log('inputvalue :>> ', inputvalue);
     toast.success("Details Shared Successfully");
     setInputvalue({ name: "", email: "", details: "" });
   };

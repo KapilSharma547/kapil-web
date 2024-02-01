@@ -12,6 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   const { theme } = useTheme();
+  console.log("theme :>> ", theme);
   return (
     <div
       className={style.container}

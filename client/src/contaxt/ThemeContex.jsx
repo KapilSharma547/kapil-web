@@ -16,7 +16,10 @@ export const ThemeProvider = ({ children }) => {
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }} style={{border:"1px solid red"}}  >
+    <ThemeContext.Provider
+      value={{ theme, toggleTheme }}
+      style={{ border: "1px solid red" }}
+    >
       {children}
     </ThemeContext.Provider>
   );
